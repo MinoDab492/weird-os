@@ -36,6 +36,20 @@ modules:
       install:
         - org.mozilla.firefox
         - org.gnome.Loupe
+        - com.jetbrains.DataGrip
+        - com.jetbrains.GoLand
+        - com.jetbrains.PhpStorm
+        - com.jetbrains.PyCharm-Community
+        - com.jetbrains.RubyMine
+        - com.jetbrains.IntelliJ-IDEA-Community
+        - com.jetbrains.RustRover
+        - com.jetbrains.CLion
+        - com.jetbrains.Rider
+        - com.jetbrains.WebStorm
+        - io.github.shiftey.Desktop
+        - io.qt.QtCreator
+        - io.github.achetagames.epic_asset_manager
+        - com.visualstudio.code
       remove:
         - org.gnome.eog
     user: {} # Also add Flathub user repo, but no user packages
